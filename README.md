@@ -23,10 +23,12 @@ This repository contains the source code for the training of our MS-ResNet on Im
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@article{hu2021advancing,
-  title={Advancing Spiking Neural Networks towards Deep Residual Learning},
-  author={Hu, Yifan and Deng, Lei and Wu, Yujie and Yao, Man and Li, Guoqi},
-  journal={arXiv preprint arXiv:2112.08954},
-  year={2021}
+@misc{hu2023advancing,
+      title={Advancing Spiking Neural Networks towards Deep Residual Learning}, 
+      author={Yifan Hu and Lei Deng and Yujie Wu and Man Yao and Guoqi Li},
+      year={2023},
+      eprint={2112.08954},
+      archivePrefix={arXiv},
+      primaryClass={cs.NE}
 }
 ```
