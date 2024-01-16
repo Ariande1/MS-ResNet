@@ -8,6 +8,8 @@ The most straightforward way of training higher quality models is by increasing 
 
 This repository contains the source code for the training of our MS-ResNet on ImageNet. The models are defined in `models/MS_ResNet.py` .
 
+The pretrained models on ImageNet are available at https://drive.google.com/drive/folders/1NMn6RNMpqi6NqKckgFg0t7ewbct-H6_s?usp=sharing.
+
 ## Running
 
 1. Install Python 3.7, PyTorch 1.8 and Tensorboard.  
