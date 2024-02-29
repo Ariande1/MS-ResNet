@@ -2,7 +2,7 @@
 
 This repo **covers the implementation of the following paper:**
 
-"Advancing Spiking Neural Networks towards Deep Residual Learning". [Paper](https://arxiv.org/abs/2112.08954).
+"Advancing Spiking Neural Networks towards Deep Residual Learning". [Paper](https://ieeexplore.ieee.org/abstract/document/10428029).
 
 The most straightforward way of training higher quality models is by increasing their size. In this work, we would like to see that deepening network structures could get rid of the degradation problem and always be a trustworthy way to achieve satisfying accuracy for the direct training of SNNs.
 
@@ -25,12 +25,14 @@ The pretrained models on ImageNet are available at https://drive.google.com/driv
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@misc{hu2023advancing,
-      title={Advancing Spiking Neural Networks towards Deep Residual Learning}, 
-      author={Yifan Hu and Lei Deng and Yujie Wu and Man Yao and Guoqi Li},
-      year={2023},
-      eprint={2112.08954},
-      archivePrefix={arXiv},
-      primaryClass={cs.NE}
-}
+@ARTICLE{10428029,
+  author={Hu, Yifan and Deng, Lei and Wu, Yujie and Yao, Man and Li, Guoqi},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Advancing Spiking Neural Networks Toward Deep Residual Learning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Degradation;Training;Task analysis;Neurons;Neuromorphics;Computer architecture;Computational modeling;Degradation problem;neuromorphic computing;residual neural network;spiking neural network (SNN)},
+  doi={10.1109/TNNLS.2024.3355393}}
 ```
