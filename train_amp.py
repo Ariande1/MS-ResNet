@@ -184,7 +184,7 @@ if __name__ == '__main__':
     }],
                           momentum=0.9,
                           lr=b_lr,
-                          weight_decay=1e-4)  # SGD MOMENTUM
+                          weight_decay=1e-5)  # SGD MOMENTUM
     train_scheduler = optim.lr_scheduler.CosineAnnealingLR(
         optimizer, T_max=settings.EPOCH, eta_min=0, last_epoch=0)
     iter_per_epoch = len(ImageNet_training_loader)
