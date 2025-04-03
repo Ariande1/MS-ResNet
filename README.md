@@ -10,6 +10,8 @@ This repository contains the source code for the training of our MS-ResNet on Im
 
 The pretrained models on ImageNet are available at https://drive.google.com/drive/folders/1NMn6RNMpqi6NqKckgFg0t7ewbct-H6_s?usp=sharing.
 
+The weight decay used for training should be 1e-5 for MS-ResNet18/34 instead of 1e-4 reported in the paper.
+
 ## Running
 
 1. Install Python 3.7, PyTorch 1.8 and Tensorboard.  
